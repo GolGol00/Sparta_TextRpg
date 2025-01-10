@@ -4,7 +4,7 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
-#include "Public/BaseMonster.h"
+#include "BaseMonster.h"
 #include "EnemyFactory.h"
 #include "PlayerCharacter.h"
 

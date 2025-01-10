@@ -27,13 +27,13 @@
     <ClInclude Include="IBattleManager.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Public\BaseMonster.h">
+    <ClInclude Include="BaseMonster.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Public\Goblin.h">
+    <ClInclude Include="Goblin.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Public\Orc.h">
+    <ClInclude Include="Orc.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -47,13 +47,13 @@
     <ClCompile Include="BattleManager_ver2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Private\BaseMonster.cpp">
+    <ClCompile Include="BaseMonster.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Private\Goblin.cpp">
+    <ClCompile Include="Goblin.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Private\Orc.cpp">
+    <ClCompile Include="Orc.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,5 +1,6 @@
 #include <iostream>
-#include "../Public/Orc.h"
+#include "Orc.h"
+
 
 
 using namespace std;
