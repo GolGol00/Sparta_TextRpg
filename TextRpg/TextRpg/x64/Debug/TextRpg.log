@@ -1,0 +1,19 @@
+﻿  BaseMonster.cpp
+  BattleManager_ver1.cpp
+  BattleManager_ver2.cpp
+  EnemyFactory.cpp
+C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\BattleManager_ver2.h(9,10): error C1083: 포함 파일을 열 수 없습니다. 'PlayerCharacter.h': No such file or directory
+  (소스 파일 'BattleManager_ver2.cpp'을(를) 컴파일하는 중)
+  
+  Goblin.cpp
+C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Goblin.cpp(8,6): error C2653: 'Goblin': 클래스 또는 네임스페이스 이름이 아닙니다.
+C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Goblin.cpp(10,10): error C3861: 'GetName': 식별자를 찾을 수 없습니다.
+C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Goblin.cpp(11,2): error C2065: 'Damage': 선언되지 않은 식별자입니다.
+  Orc.cpp
+C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Orc.cpp(8,6): error C2653: 'Orc': 클래스 또는 네임스페이스 이름이 아닙니다.
+C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Orc.cpp(10,10): error C3861: 'GetName': 식별자를 찾을 수 없습니다.
+C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Orc.cpp(11,2): error C2065: 'CurrentHP': 선언되지 않은 식별자입니다.
+C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Orc.cpp(11,16): error C2065: 'MaxHP': 선언되지 않은 식별자입니다.
+C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Orc.cpp(11,24): error C2065: 'CurrentHP': 선언되지 않은 식별자입니다.
+  코드를 생성하고 있습니다...
+C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\EnemyFactory.cpp(18): warning C4715: 'EnemyFactory::getMonster': 모든 제어 경로에서 값을 반환하지는 않습니다.
