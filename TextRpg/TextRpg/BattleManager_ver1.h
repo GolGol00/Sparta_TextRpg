@@ -1,7 +1,8 @@
 #pragma once
 
 #include "IBattleManager.h"
-#include "BaseMonster.h"
+#include "Public/BaseMonster.h"
+
 #include "PlayerCharacter.h"
 #include "EnemyFactory.h"
 

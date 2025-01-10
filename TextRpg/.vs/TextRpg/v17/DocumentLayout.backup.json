@@ -1,12 +1,173 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\BattleManager_ver2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|solutionrelative:TextRpg\\BattleManager_ver2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\BattleManager_ver1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|solutionrelative:TextRpg\\BattleManager_ver1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\Private\\Orc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|solutionrelative:TextRpg\\Private\\Orc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\Private\\Goblin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|solutionrelative:TextRpg\\Private\\Goblin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\EnemyFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|solutionrelative:TextRpg\\EnemyFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\BattleManager_ver1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|solutionrelative:TextRpg\\BattleManager_ver1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\Private\\BaseMonster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|solutionrelative:TextRpg\\Private\\BaseMonster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\EnemyFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|solutionrelative:TextRpg\\EnemyFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\IBattleManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5C639E4-355D-4A23-96C8-0ED4553A7A83}|TextRpg\\TextRpg.vcxproj|solutionrelative:TextRpg\\IBattleManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseMonster.cpp",
+              "DocumentMoniker": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\Private\\BaseMonster.cpp",
+              "RelativeDocumentMoniker": "TextRpg\\Private\\BaseMonster.cpp",
+              "ToolTip": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\Private\\BaseMonster.cpp",
+              "RelativeToolTip": "TextRpg\\Private\\BaseMonster.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-10T09:49:34.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Orc.cpp",
+              "DocumentMoniker": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\Private\\Orc.cpp",
+              "RelativeDocumentMoniker": "TextRpg\\Private\\Orc.cpp",
+              "ToolTip": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\Private\\Orc.cpp",
+              "RelativeToolTip": "TextRpg\\Private\\Orc.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-10T09:01:03.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Goblin.cpp",
+              "DocumentMoniker": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\Private\\Goblin.cpp",
+              "RelativeDocumentMoniker": "TextRpg\\Private\\Goblin.cpp",
+              "ToolTip": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\Private\\Goblin.cpp",
+              "RelativeToolTip": "TextRpg\\Private\\Goblin.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-10T09:00:37.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BattleManager_ver1.cpp",
+              "DocumentMoniker": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\BattleManager_ver1.cpp",
+              "RelativeDocumentMoniker": "TextRpg\\BattleManager_ver1.cpp",
+              "ToolTip": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\BattleManager_ver1.cpp",
+              "RelativeToolTip": "TextRpg\\BattleManager_ver1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-10T08:11:42.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BattleManager_ver1.h",
+              "DocumentMoniker": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\BattleManager_ver1.h",
+              "RelativeDocumentMoniker": "TextRpg\\BattleManager_ver1.h",
+              "ToolTip": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\BattleManager_ver1.h",
+              "RelativeToolTip": "TextRpg\\BattleManager_ver1.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-10T07:46:54.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyFactory.cpp",
+              "DocumentMoniker": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\EnemyFactory.cpp",
+              "RelativeDocumentMoniker": "TextRpg\\EnemyFactory.cpp",
+              "ToolTip": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\EnemyFactory.cpp",
+              "RelativeToolTip": "TextRpg\\EnemyFactory.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-10T07:48:33.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemyFactory.h",
+              "DocumentMoniker": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\EnemyFactory.h",
+              "RelativeDocumentMoniker": "TextRpg\\EnemyFactory.h",
+              "ToolTip": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\EnemyFactory.h",
+              "RelativeToolTip": "TextRpg\\EnemyFactory.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-10T07:48:16.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BattleManager_ver2.h",
+              "DocumentMoniker": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\BattleManager_ver2.h",
+              "RelativeDocumentMoniker": "TextRpg\\BattleManager_ver2.h",
+              "ToolTip": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\BattleManager_ver2.h",
+              "RelativeToolTip": "TextRpg\\BattleManager_ver2.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-10T07:47:06.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBattleManager.h",
+              "DocumentMoniker": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\IBattleManager.h",
+              "RelativeDocumentMoniker": "TextRpg\\IBattleManager.h",
+              "ToolTip": "C:\\Users\\qordl\\Documents\\GitHub\\Sparta_TextRpg\\TextRpg\\TextRpg\\IBattleManager.h",
+              "RelativeToolTip": "TextRpg\\IBattleManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-10T07:53:07.142Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

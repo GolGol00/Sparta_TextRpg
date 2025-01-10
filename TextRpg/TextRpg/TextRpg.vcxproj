@@ -131,11 +131,17 @@
     <ClInclude Include="BattleManager_ver2.h" />
     <ClInclude Include="EnemyFactory.h" />
     <ClInclude Include="IBattleManager.h" />
+    <ClInclude Include="Public\BaseMonster.h" />
+    <ClInclude Include="Public\Goblin.h" />
+    <ClInclude Include="Public\Orc.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BattleManager_ver1.cpp" />
     <ClCompile Include="BattleManager_ver2.cpp" />
     <ClCompile Include="EnemyFactory.cpp" />
+    <ClCompile Include="Private\BaseMonster.cpp" />
+    <ClCompile Include="Private\Goblin.cpp" />
+    <ClCompile Include="Private\Orc.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
