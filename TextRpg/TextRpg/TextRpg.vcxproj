@@ -128,9 +128,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="PlayerCharacter.h" />
+    <ClInclude Include="Public\AttackBoost.h" />
+    <ClInclude Include="Public\GameManager.h" />
+    <ClInclude Include="Public\HealthPotion.h" />
+    <ClInclude Include="Public\Item.h" />
+    <ClInclude Include="Public\PlayerCharacter.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PlayerCharacter.cpp" />
+    <ClCompile Include="Private\AttackBoost.cpp" />
+    <ClCompile Include="Private\GameManager.cpp" />
+    <ClCompile Include="Private\HealthPotion.cpp" />
+    <ClCompile Include="Private\PlayerCharacter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
