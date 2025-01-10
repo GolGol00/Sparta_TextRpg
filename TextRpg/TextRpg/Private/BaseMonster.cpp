@@ -1,3 +1,5 @@
+
+#include "BaseMonster.h"
 #include <string>
 #include <iostream>
 #include <cstdlib>
