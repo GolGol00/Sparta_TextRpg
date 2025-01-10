@@ -29,3 +29,21 @@ TextRpg/.vs/TextRpg/v17/Browse.VC.db-wal
 TextRpg/.vs/TextRpg/v17/Browse.VC.opendb
 TextRpg/.vs/TextRpg/v17/Browse.VC.db
 TextRpg/.vs/TextRpg/v17/.suo
+# Visual Studio 관련 파일 및 폴더
+*.VC.db
+*.VC.opendb
+.vs/
+ipch/
+*.suo
+*.user
+*.pdb
+*.log
+*.obj
+*.exe
+*.ilk
+*.idb
+*.pch
+*.tlog
+*.lastbuildstate
+Debug/
+Release/
