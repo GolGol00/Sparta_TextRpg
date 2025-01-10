@@ -1,6 +1,7 @@
 #pragma once
 #include "Public/BaseMonster.h"
 #include "Public/Goblin.h"
+#include "Public/Orc.h"
 
 
 

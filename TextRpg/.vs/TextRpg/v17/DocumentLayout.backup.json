@@ -58,8 +58,7 @@
               "RelativeToolTip": "TextRpg\\Private\\BaseMonster.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-10T09:49:34.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T09:49:34.303Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "TextRpg\\Private\\Orc.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-10T09:01:03.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T09:01:03.785Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "TextRpg\\Private\\Goblin.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-10T09:00:37.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T09:00:37.004Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "TextRpg\\BattleManager_ver1.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-10T08:11:42.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T08:11:42.792Z"
             },
             {
               "$type": "Document",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "TextRpg\\BattleManager_ver1.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-10T07:46:54.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T07:46:54.503Z"
             },
             {
               "$type": "Document",
@@ -123,8 +118,7 @@
               "RelativeToolTip": "TextRpg\\EnemyFactory.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-10T07:48:33.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T07:48:33.697Z"
             },
             {
               "$type": "Document",
@@ -136,8 +130,7 @@
               "RelativeToolTip": "TextRpg\\EnemyFactory.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-10T07:48:16.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T07:48:16.683Z"
             },
             {
               "$type": "Document",
@@ -162,8 +155,7 @@
               "RelativeToolTip": "TextRpg\\IBattleManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-10T07:53:07.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T07:53:07.142Z"
             }
           ]
         }
