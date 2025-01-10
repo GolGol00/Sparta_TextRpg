@@ -1,5 +1,6 @@
 #pragma once
 
+#include "Item.h"
 #include <string>
 #include <vector>
 
@@ -8,7 +9,8 @@ using namespace std;
 /**
  *
  */
-enum STATUS {
+enum STATUS 
+{
     HP = 0,
     MAXHP,
     ATTACK,
@@ -31,7 +33,7 @@ public:
     // 아이템 사용 => 인벤토리와 연계
     void UseItem(int index);
     //// 인벤토리에 아이템 추가
-    void AddItem(const Item& item);
+    void AddItem(Item* item);
 
     //// 인벤토리에서 아이템 제거
     void RemoveItem(int index);
@@ -63,6 +65,6 @@ private:
     int _experience;
     int _gold;
 
-    vector<Item> _inventory;
+    vector<Item*> _inventory;
 
 };

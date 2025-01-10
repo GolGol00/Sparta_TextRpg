@@ -76,8 +76,8 @@ bool BattleManager::Battle() {
 		deleteMonster();
 
 		//죽었으니 보상
-		_player->AddExperience(50);
-		_player->AddGold(10);
+		_player->IncreaseStat();
+		_player->IncreaseStat();
 		//player->AddItem(new Item()); 
 		return false;
 	}

@@ -6,93 +6,88 @@ using namespace std;
 
 GameManager::GameManager() : bossCleared(false) {}
 
-void GameManager::startGame() 
+void GameManager::StartGame()
 {
     cout << "게임을 시작합니다. " << endl;
-    createCharacter();
-    while (true) 
+    CreateCharacter();
+    while (true)
     {
-        generateMonster();
-        battle();
+        GenerateMonster();
+        Battle();
 
-        if (bossCleared) 
+        if (bossCleared)
         {
-            showEnding();
+            ShowEnding();
             break;
         }
 
+        /*
         cout << "상점을 방문하시겠습니까? (Y/N): ";
         char choice;
         cin >> choice;
 
-        if (choice == 'Y' || choice == 'y') 
+        if (choice == 'Y' || choice == 'y')
         {
-            visitShop();
+            VisitShop(); 
         }
         else if (choice == 'N' || choice == 'n')
         {
-            battle();
+            Battle();
         }
 
-        if (PlayerCharacter::GetInstance()->getLevel() >= 10) 
+        */
+        if (PlayerCharacter::GetInstance()->GetLevel() >= 10)
         {
             cout << "레벨 10에 도달했습니다! 보스와의 전투를 시작합니다." << endl;
-            battle(); 
+            Battle();
             break;
         }
     }
 }
 
-void GameManager::createCharacter() 
+void GameManager::CreateCharacter()
 {
     string playerName;
 
     cout << "플레이어 캐릭터의 이름을 입력하세요: ";
     getline(cin, playerName); // 캐릭터 이름 입력 받기
+    
+    PlayerCharacter* player = PlayerCharacter::GetInstance(playerName);
 
-    try 
-    {
-        PlayerCharacter* player = PlayerCharacter::GetInstance(playerName);
-        cout << "플레이어 캐릭터가 생성되었습니다: " << player->getName() << endl;
-    }
-    catch (const std::exception& e) 
-    {
-        cout << "문제가 발생했습니다: " << e.what() << endl;
-    }
 }
 
-void GameManager::generateMonster() 
+void GameManager::GenerateMonster()
 {
     cout << "몬스터가 생성되었습니다!" << endl;
 }
 
-void GameManager::battle() 
+void GameManager::Battle()
 {
     cout << "전투가 시작됩니다!" << endl;
 
     // 전투가 끝난 후, 플레이어의 레벨 증가 또는 보스 클리어 여부 확인
     PlayerCharacter* player = PlayerCharacter::GetInstance();
-    player->increaseLevel(1); // 예시로 레벨 증가
 
-    if (player->getLevel() >= 10) 
+
+    if (player->GetLevel() >= 10)
     {
         bossCleared = true; // 보스 전투 가능
     }
 }
 
-void GameManager::displayInventory() 
+void GameManager::DisplayInventory()
 {
     cout << "인벤토리 목록" << endl;
     // 인벤토리 출력 로직
 }
 
-void GameManager::visitShop() 
+void GameManager::VisitShop()
 {
     cout << "상점에 방문하셨습니다!" << endl;
     // 상점 방문 로직 (아이템 구매 등)
 }
 
-void GameManager::showEnding() 
+void GameManager::ShowEnding()
 {
     cout << "축하합니다! 게임 엔딩을 보셨습니다!" << endl;
     cout << "엔딩 크레딧:" << endl;

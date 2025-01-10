@@ -1,4 +1,5 @@
 #include "PlayerCharacter.h"
+#include "Item.h"
 #include <iostream>
 #include <stdexcept>
 #include <iomanip>
@@ -111,17 +112,17 @@ void PlayerCharacter::UseItem(int index)
         return;
     }
 
-    const Item& item = _inventory[index];
+    Item* item = _inventory[index];
 
-    item.Use(this);
+    item->Use(this);
 
     // 아이템 사용 후 제거
     RemoveItem(index);
 }
-void PlayerCharacter::AddItem(const Item& item)
+void PlayerCharacter::AddItem(Item* item)
 {
     _inventory.push_back(item);
-    cout << item.GetName() << "을(를) 획득했습니다!" << endl;
+    cout << item->GetName() << "을(를) 획득했습니다!" << endl;
 }
 
 void PlayerCharacter::RemoveItem(int index)

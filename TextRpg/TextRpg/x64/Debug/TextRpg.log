@@ -1,19 +1,147 @@
-﻿  BaseMonster.cpp
-  BattleManager_ver1.cpp
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: 이름이 AttackBoost.cpp인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 AttackBoost.cpp, Private\AttackBoost.cpp입니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: 이름이 GameManager.cpp인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 GameManager.cpp, Private\GameManager.cpp입니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: 이름이 HealthPotion.cpp인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 HealthPotion.cpp, Private\HealthPotion.cpp입니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: 이름이 PlayerCharacter.cpp인 둘 이상의 파일이 같은 위치에 출력을 생성합니다. 이로 인해 잘못된 빌드 결과가 나타날 수 있습니다.  관련된 파일은 PlayerCharacter.cpp, Private\PlayerCharacter.cpp입니다.
+  AttackBoost.cpp
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'AttackBoost.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'AttackBoost.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\PlayerCharacter.h(36,18): error C2061: 구문 오류: 식별자 'Item'
+  (소스 파일 'AttackBoost.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\PlayerCharacter.h(68,12): error C2065: 'Item': 선언되지 않은 식별자입니다.
+  (소스 파일 'AttackBoost.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\PlayerCharacter.h(68,17): error C2059: 구문 오류: '>'
+  (소스 파일 'AttackBoost.cpp'을(를) 컴파일하는 중)
+  
   BattleManager_ver2.cpp
-  EnemyFactory.cpp
-C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\BattleManager_ver2.h(9,10): error C1083: 포함 파일을 열 수 없습니다. 'PlayerCharacter.h': No such file or directory
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   (소스 파일 'BattleManager_ver2.cpp'을(를) 컴파일하는 중)
   
-  Goblin.cpp
-C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Goblin.cpp(8,6): error C2653: 'Goblin': 클래스 또는 네임스페이스 이름이 아닙니다.
-C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Goblin.cpp(10,10): error C3861: 'GetName': 식별자를 찾을 수 없습니다.
-C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Goblin.cpp(11,2): error C2065: 'Damage': 선언되지 않은 식별자입니다.
-  Orc.cpp
-C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Orc.cpp(8,6): error C2653: 'Orc': 클래스 또는 네임스페이스 이름이 아닙니다.
-C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Orc.cpp(10,10): error C3861: 'GetName': 식별자를 찾을 수 없습니다.
-C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Orc.cpp(11,2): error C2065: 'CurrentHP': 선언되지 않은 식별자입니다.
-C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Orc.cpp(11,16): error C2065: 'MaxHP': 선언되지 않은 식별자입니다.
-C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\Orc.cpp(11,24): error C2065: 'CurrentHP': 선언되지 않은 식별자입니다.
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(15,17): error C3646: 'GetTargetStat': 알 수 없는 재정의 지정자입니다.
+  (소스 파일 'BattleManager_ver2.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(15,31): error C2059: 구문 오류: ')'
+  (소스 파일 'BattleManager_ver2.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(15,42): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+  (소스 파일 'BattleManager_ver2.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(21,19): error C2061: 구문 오류: 식별자 'PlayerCharacter'
+  (소스 파일 'BattleManager_ver2.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\BattleManager_ver2.cpp(28,11): warning C4267: 'return': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\BattleManager_ver2.cpp(48,30): error C2660: 'EnemyFactory::getMonster': 함수는 1개의 인수를 사용하지 않습니다.
+  D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\EnemyFactory.h(16,15):
+  'EnemyFactory::getMonster' 선언을 참조하십시오.
+  D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\BattleManager_ver2.cpp(48,30):
+  인수 목록 '(int)'을(를) 일치시키는 동안
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\BattleManager_ver2.cpp(79,10): error C2660: 'PlayerCharacter::IncreaseStat': 함수는 0개의 인수를 사용하지 않습니다.
+  D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\PlayerCharacter.h(42,10):
+  'PlayerCharacter::IncreaseStat' 선언을 참조하십시오.
+  D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\BattleManager_ver2.cpp(79,10):
+  인수 목록 '()'을(를) 일치시키는 동안
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\BattleManager_ver2.cpp(80,10): error C2660: 'PlayerCharacter::IncreaseStat': 함수는 0개의 인수를 사용하지 않습니다.
+  D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\PlayerCharacter.h(42,10):
+  'PlayerCharacter::IncreaseStat' 선언을 참조하십시오.
+  D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\BattleManager_ver2.cpp(80,10):
+  인수 목록 '()'을(를) 일치시키는 동안
+  
+  GameManager.cpp
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'GameManager.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(15,17): error C3646: 'GetTargetStat': 알 수 없는 재정의 지정자입니다.
+  (소스 파일 'GameManager.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(15,31): error C2059: 구문 오류: ')'
+  (소스 파일 'GameManager.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(15,42): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+  (소스 파일 'GameManager.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(21,19): error C2061: 구문 오류: 식별자 'PlayerCharacter'
+  (소스 파일 'GameManager.cpp'을(를) 컴파일하는 중)
+  
+  HealthPotion.cpp
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'HealthPotion.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'HealthPotion.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\PlayerCharacter.h(36,18): error C2061: 구문 오류: 식별자 'Item'
+  (소스 파일 'HealthPotion.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\PlayerCharacter.h(68,12): error C2065: 'Item': 선언되지 않은 식별자입니다.
+  (소스 파일 'HealthPotion.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\PlayerCharacter.h(68,17): error C2059: 구문 오류: '>'
+  (소스 파일 'HealthPotion.cpp'을(를) 컴파일하는 중)
+  
+  main.cpp
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(15,17): error C3646: 'GetTargetStat': 알 수 없는 재정의 지정자입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(15,31): error C2059: 구문 오류: ')'
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(15,42): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(21,19): error C2061: 구문 오류: 식별자 'PlayerCharacter'
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\main.cpp(8,17): error C2039: 'startGame': 'GameManager'의 멤버가 아닙니다.
+  D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\GameManager.h(6,7):
+  'GameManager' 선언을 참조하십시오.
+  
+  NormalState.cpp
+  PlayerCharacter.cpp
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'PlayerCharacter.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(15,17): error C3646: 'GetTargetStat': 알 수 없는 재정의 지정자입니다.
+  (소스 파일 'PlayerCharacter.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(15,31): error C2059: 구문 오류: ')'
+  (소스 파일 'PlayerCharacter.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(15,42): error C2238: ';' 앞에 예기치 않은 토큰이 있습니다.
+  (소스 파일 'PlayerCharacter.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(21,19): error C2061: 구문 오류: 식별자 'PlayerCharacter'
+  (소스 파일 'PlayerCharacter.cpp'을(를) 컴파일하는 중)
+  
+D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\PlayerCharacter.cpp(117,9): error C2660: 'Item::Use': 함수는 1개의 인수를 사용하지 않습니다.
+  D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\Item.h(21,15):
+  'Item::Use' 선언을 참조하십시오.
+  D:\Unreal_Project\Sparta_TextRpg\TextRpg\TextRpg\PlayerCharacter.cpp(117,9):
+  인수 목록 '(PlayerCharacter *)'을(를) 일치시키는 동안
+  
+  AttackBoost.cpp
+/Private/AttackBoost.cpp(1,1): error C1083: 소스 파일을 열 수 없습니다. 'Private\AttackBoost.cpp': No such file or directory
+  (소스 파일 '/Private/AttackBoost.cpp'을(를) 컴파일하는 중)
+  
+  GameManager.cpp
+/Private/GameManager.cpp(1,1): error C1083: 소스 파일을 열 수 없습니다. 'Private\GameManager.cpp': No such file or directory
+  (소스 파일 '/Private/GameManager.cpp'을(를) 컴파일하는 중)
+  
+  HealthPotion.cpp
+/Private/HealthPotion.cpp(1,1): error C1083: 소스 파일을 열 수 없습니다. 'Private\HealthPotion.cpp': No such file or directory
+  (소스 파일 '/Private/HealthPotion.cpp'을(를) 컴파일하는 중)
+  
+  PlayerCharacter.cpp
+/Private/PlayerCharacter.cpp(1,1): error C1083: 소스 파일을 열 수 없습니다. 'Private\PlayerCharacter.cpp': No such file or directory
+  (소스 파일 '/Private/PlayerCharacter.cpp'을(를) 컴파일하는 중)
+  
   코드를 생성하고 있습니다...
-C:\Users\qordl\Documents\GitHub\Sparta_TextRpg\TextRpg\TextRpg\EnemyFactory.cpp(18): warning C4715: 'EnemyFactory::getMonster': 모든 제어 경로에서 값을 반환하지는 않습니다.

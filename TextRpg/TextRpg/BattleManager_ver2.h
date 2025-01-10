@@ -9,14 +9,10 @@
 #include "PlayerCharacter.h"
 
 
-
-
-
 class BattleManager 
 {
 
 private:
-
 	//현재 몬스터
 	BaseMonster* _currentMonster;
 	EnemyFactory* _eFactory;
@@ -39,7 +35,7 @@ public:
 	BattleManager()
 		: _currentMonster(nullptr),
 		_eFactory(new EnemyFactory()),
-		_player(new PlayerCharacter())
+		_player(PlayerCharacter::GetInstance())
 	{
 		_enemyrand = { 50.0f , 50.0f };
 	}
