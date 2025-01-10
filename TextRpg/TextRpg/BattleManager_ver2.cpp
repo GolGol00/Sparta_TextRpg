@@ -1,5 +1,4 @@
-#include "BattleManager_ver2.h"
-
+#include "Framework.h"
 
 
 void  BattleManager::deleteMonster() {
@@ -45,7 +44,7 @@ bool BattleManager::Battle() {
 
 	if (_currentMonster == nullptr)
 	{
-		_currentMonster = _eFactory->getMonster(Choose(_enemyrand), _player.GetLevel());
+		//_currentMonster = _eFactory->getMonster(Choose(_enemyrand), _player.GetLevel());
 	}
 
 	//몬스터 없으면 몬스터 생성
@@ -76,8 +75,7 @@ bool BattleManager::Battle() {
 		deleteMonster();
 
 		//죽었으니 보상
-		_player->IncreaseStat();
-		_player->IncreaseStat();
+		_player->IncreaseStat(EXP, 50);  // 경험치 50 증가
 		//player->AddItem(new Item()); 
 		return false;
 	}

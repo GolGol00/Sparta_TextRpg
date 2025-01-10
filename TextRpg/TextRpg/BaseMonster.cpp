@@ -1,6 +1,4 @@
-#include "BaseMonster.h"
-#include "NormalState.h"
-#include "EnragedState.h"
+#include "Framework.h"
 #include <string>
 #include <iostream>
 #include <cstdlib>

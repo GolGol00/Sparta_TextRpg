@@ -1,12 +1,14 @@
+#include "Framework.h"
 #include "AttackBoost.h"
 
-AttackBoost::AttackBoost() : ItemName("AttackBoost"), TargetStat(ATTACK)
+
+AttackBoost::AttackBoost() : ItemName("AttackBoost")
 {
 }
 
 void AttackBoost::Use(PlayerCharacter* character)
 {
-	character->IncreaseStat(TargetStat, StatAmount);
+	character->IncreaseStat(ATTACK, StatAmount);
 }
 
 void AttackBoost::PrintItemInfo()

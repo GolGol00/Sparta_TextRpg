@@ -1,5 +1,4 @@
-#include "EnragedState.h"
-#include "BaseMonster.h"
+#include "Framework.h"
 #include <iostream>
 
 void EnragedState::HandleState(BaseMonster* Monster)

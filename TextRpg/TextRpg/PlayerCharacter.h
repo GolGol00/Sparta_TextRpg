@@ -9,7 +9,8 @@ using namespace std;
 /**
  *
  */
-enum STATUS 
+
+enum STATUS
 {
     HP = 0,
     MAXHP,
@@ -17,6 +18,7 @@ enum STATUS
     GOLD,
     EXP
 };
+
 
 
 class  PlayerCharacter

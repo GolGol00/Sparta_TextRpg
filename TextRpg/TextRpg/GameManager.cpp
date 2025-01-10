@@ -1,5 +1,4 @@
-#include "GameManager.h"
-#include "PlayerCharacter.h"
+#include "Framework.h"
 #include <iostream>
 #include <string>
 using namespace std;
@@ -28,7 +27,7 @@ void GameManager::StartGame()
 
         if (choice == 'Y' || choice == 'y')
         {
-            VisitShop(); 
+            VisitShop();
         }
         else if (choice == 'N' || choice == 'n')
         {
@@ -51,7 +50,7 @@ void GameManager::CreateCharacter()
 
     cout << "플레이어 캐릭터의 이름을 입력하세요: ";
     getline(cin, playerName); // 캐릭터 이름 입력 받기
-    
+
     PlayerCharacter* player = PlayerCharacter::GetInstance(playerName);
 
 }

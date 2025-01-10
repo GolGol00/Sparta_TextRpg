@@ -1,15 +1,15 @@
-#include "HealthPotion.h"
 
-HealthPotion::HealthPotion() : ItemName("HealthPotion"), TargetStat(HP)
+#include "Framework.h"
+
+HealthPotion::HealthPotion() : ItemName("HealthPotion")
 {
 }
 
 void HealthPotion::Use(PlayerCharacter* character)
 {
-	character->IncreaseStat(TargetStat, StatAmount);
+	character->IncreaseStat(HP, StatAmount);
 }
 
 void HealthPotion::PrintItemInfo()
 {
 }
-

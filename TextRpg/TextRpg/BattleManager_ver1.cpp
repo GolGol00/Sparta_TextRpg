@@ -1,5 +1,4 @@
-
-#include "BattleManager_ver1.h"
+#include "Framework.h"
 
 void Battle_Ver_1::BattleManager::SummonMonster() {
 

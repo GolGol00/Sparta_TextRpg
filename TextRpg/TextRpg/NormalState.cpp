@@ -1,5 +1,5 @@
-#include "NormalState.h"
-#include "BaseMonster.h"
+
+#include "Framework.h"
 #include <iostream>
 
 using namespace std;
