@@ -1,18 +1,29 @@
+#include "BaseMonster.h"
+#include "NormalState.h"
+#include "EnragedState.h"
 #include <string>
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include "../Public/BaseMonster.h"
+
 
 using namespace std;
 
 
 BaseMonster::BaseMonster(const string& name, const int& PlayerLevel)
 {
-	Name = name;
 	Calculate_HPandDamage(PlayerLevel);
+
+	Name = name;
 	CurrentHP = MaxHP;
 	IsDead = false;
+
+	CurrentState = new NormalState(); //상태 객체 동적 생성
+}
+
+BaseMonster::~BaseMonster()
+{
+	delete CurrentState; // 상태 객체 동적 해제
 }
 
 // MaxHP와 Damage 초기화 메서드
@@ -36,4 +47,19 @@ void BaseMonster::TakeDamage(const int& DamagedAmount)
 		IsDead = true;
 		return;
 	}
+
+	if (CurrentHP <= MaxHP / 2)
+	{
+		SetState(new EnragedState());
+	}
+}
+
+// 몬스터 상태 변경 메서드
+void BaseMonster::SetState(IState* NewState)
+{
+	if (CurrentState)
+	{
+		delete CurrentState;
+	}
+	CurrentState = NewState;
 }
