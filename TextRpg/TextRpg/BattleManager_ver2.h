@@ -1,9 +1,15 @@
 #pragma once
-#include "Public/BaseMonster.h"
-#include "PlayerCharacter.h"
+#include <vector>
 #include <iostream>
 #include <string>
+#include <cstdlib>
+#include <ctime>
+#include "Public/BaseMonster.h"
 #include "EnemyFactory.h"
+#include "PlayerCharacter.h"
+
+
+
 
 
 class BattleManager 
@@ -17,6 +23,13 @@ private:
 	//ΩÃ±€≈Ê µ«∏È πŸ≤„¡Ÿ∞Õ
 	PlayerCharacter* _player;
 
+	vector<float> _enemyrand;
+
+
+	int Choose(const std::vector<float> probs);
+	
+	void  deleteMonster();
+
 
 public:
 
@@ -28,7 +41,7 @@ public:
 		_eFactory(new EnemyFactory()),
 		_player(new PlayerCharacter())
 	{
-
+		_enemyrand = { 50.0f , 50.0f };
 	}
 	~BattleManager() {
 		delete _currentMonster;
